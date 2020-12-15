@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nameLabel {
+  display: flex;
+  flex-direction: column;
+}
+.formBtn {
+  padding: 5px 15px;
+  align-self: flex-end;
+}
+.formBtn:hover {
+  background-color: #227044;
+  color: #fff;
+  border-color: #227044;
+  transition: all 250ms linear;
+}
+.nameLabel,
+input[name='name'] {
+  margin-bottom: 10px;
+}
+input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+input:focus {
+  border: 1px solid #145a32;
+  box-shadow: 1px 4px 48px 3px rgba(0, 0, 0, 0.75);
+  outline: none;
+}

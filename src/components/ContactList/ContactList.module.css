@@ -1,0 +1,22 @@
+.contactList {
+  padding: 0;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.contactItem button {
+  padding: 5px 10px;
+}
+.contactItem button:hover {
+  background-color: #227044;
+  color: #fff;
+  border-color: #227044;
+  transition: all 250ms linear;
+}
